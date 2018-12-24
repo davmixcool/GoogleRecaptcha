@@ -4,7 +4,7 @@ namespace Davmixcool\Frontend;
 class Input
 {	
 
-	$selector;
+	protected $selector;
 
 	function __construct($options=array())
 	{	

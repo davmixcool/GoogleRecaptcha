@@ -7,17 +7,17 @@ use Davmixcool\Frontend\Script;
 class GoogleRecaptcha
 {	
 
-	$secret_key;
+	protected $secret_key;
 
-	$verify_peer;
+	protected $verify_peer;
 
-	$verify_peer_name;
+	protected $verify_peer_name;
 
-	$options;
+	protected $options;
 
-	$script;
+	protected $script;
 	
-	$input;
+	protected $input;
 
 	function __construct($options=array())
 	{

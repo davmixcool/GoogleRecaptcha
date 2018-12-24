@@ -4,11 +4,11 @@ namespace Davmixcool\Frontend;
 class Script
 {
 
-	$site_key;
+	protected $site_key;
 
-	$selector;
+	protected $selector;
 
-	$theme;
+	protected $theme;
 
 	function __construct($options=array())
 	{	
