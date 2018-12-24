@@ -22,7 +22,7 @@ A PHP package which supports both back-end and front-end of Google recaptcha v2.
 Run the following command to include this package via Composer
 
 ```shell
-composer require davmixcool/GoogleRecaptcha
+composer require davmixcool/google-recaptcha
 ```
 
 

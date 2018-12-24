@@ -1,5 +1,5 @@
 {
-  "name": "davmixcool/GoogleRecaptcha",
+  "name": "davmixcool/google-recaptcha",
   "type": "library",
   "description": "Google Recaptcha Package For PHP front and backend.",
   "keywords": [
