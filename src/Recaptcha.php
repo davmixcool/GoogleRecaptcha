@@ -26,9 +26,9 @@ class GoogleRecaptcha
 		$this->verify_peer_name = isset($options['verify_peer_name'])? $options['verify_peer_name'] : false;
 		$this->options = $options;
 
-		$script = new Script($this->options);
+		$this->script = new Script($this->options);
 
-		$input = new Input($this->options);
+		$this->input = new Input($this->options);
 	}
 
 
