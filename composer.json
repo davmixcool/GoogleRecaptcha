@@ -1,0 +1,33 @@
+{
+  "name": "davmixcool/GoogleRecaptcha",
+  "type": "library",
+  "description": "Google Recaptcha Package For PHP front and backend.",
+  "keywords": [
+    "Google",
+    "Security",
+    "Captcha",
+    "Recaptcha",
+    "GoogleRecaptcha",
+    "Recaptcha v2",
+    "Recaptcha v3",
+    "Protection",
+    "Bot Filter"
+  ],
+  "homepage": "https://github.com/davmixcool/GoogleRecaptcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Oti",
+      "email": "davmixcool@gmail.com",
+      "role": "Software Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+        "psr-4": {
+            "Davmixcool\\": "src"
+        }
+  }
+}
