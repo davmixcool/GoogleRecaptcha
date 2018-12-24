@@ -42,7 +42,7 @@ use Davmixcool\GoogleRecaptcha;
 	//Place the renderJs before the closing body tag.
 	$googleRecaptcha->renderJs();
 
-	//Place the renderCaptcha where you want the captcha to show.
+	//Place the renderCaptcha where you want to display the captcha.
 	$googleRecaptcha->renderCaptcha();
 
 	// Check if captcha was passed successfully 
