@@ -10,15 +10,15 @@ class Script
 
 	protected $theme;
 
-	function __construct($options=array())
-	{	
+	public function __construct($options=[])
+	{
 		$this->site_key = isset($options['site_key'])? $options['site_key'] : null;
 		$this->selector = isset($options['selector'])? $options['selector'] : 'google_recaptcha_selector';
 		$this->theme = isset($options['theme'])? $options['theme'] : 'light';
 	}
 
 	public function render()
-	{	
+	{
 		return '
 			<script type="text/javascript">
 		      var onloadGoogleRecaptchaCallback = function() {
@@ -34,6 +34,3 @@ class Script
 		';
 	}
 }
-
-
-?>
