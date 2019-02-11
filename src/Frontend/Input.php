@@ -2,12 +2,11 @@
 namespace Davmixcool\Frontend;
 
 class Input
-{	
-
+{
 	protected $selector;
 
-	function __construct($options=array())
-	{	
+	public function __construct($options=[])
+	{
 		$this->selector = isset($options['selector'])? $options['selector'] : 'google_recaptcha_selector';
 	}
 
@@ -16,6 +15,3 @@ class Input
 		return '<div id="'.$this->selector.'"></div>';
 	}
 }
-
-
-?>
